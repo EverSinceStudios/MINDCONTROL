@@ -1,0 +1,48 @@
+
+
+
+Running through a haunted mansion
+Entirely dark map layout. With traps and pitfalls throughout. Meant to be scary.
+The only usable source of light in each level is the player's torch.
+Player character will have no advanced movement capabilities (no jump, dash, or sprint)
+
+
+torch mechanic
+on -> (+) can see the layout of the level and consequently the traps, dangers, and the level exit.
+on -> (-) Enemies will chase after you for up to a second after your torch is turned off. 
+off -> (-) Can see nothing in the level besides the character themselves and the eyes of any nearby monsters. 
+off -> (+) No monster will be aggro'd by the player
+Can be turned on/off using the F key. (might limit time that the light torch will remain on)
+Light from the torch should illuminate approx. 90% of the level.
+
+
+traps mechanic
+traps will OHKO anything that falls into their trigger area.
+they exist in various different forms
+- spike pitfall traps (these must be walked into)
+- light traps (these are designed to kill the player if they activate their light while standing on a specific tile, usually by attracting a previously hidden monster too close to avoid or run from)
+	Example: Light activate an arrow turret that fires an arrow down a hallway. 
+- spear wall traps (these will likely be tied to "pressure plates". 
+
+
+Monster mechanics
+aggro active -> will run to the player in a straight line.
+Monster eyes will always be visible
+Monsters will all walk faster than the player character
+Any contact from a monster will be fatal
+
+
+pace of play
+aiming to keep levels fast.
+respawn and resetting the level will need to be quick. I want HLM style quickness when it comes to consequtive level run attempts
+
+sounds to get
+- monster running (aggroed)
+- monster growl (passive)
+- player panting (running)
+- player crying (idle, scared, after first monster enounter)
+- trap activation
+- death sounds
+- ambient scary tracks
+- door opening/closing
+- success sound
